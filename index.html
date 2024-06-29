@@ -15,23 +15,23 @@
     <!-- ⚠️ Атрибут data-cy удалять нельзя! Он учавствует в проверке. Если его удалить, тесты не пройдут. -->
 
     <header>
-        <span>IT-INCUBATOR</span>
+        <span data-cy="hw2-header-span">IT-INCUBATOR</span>
     </header>
 
-    <section class="hw1-section-main-pre" data-cy="hw1-section-main-pre">
+    <section data-cy="hw1-section-main-pre">
         <!-- 1) В этом разделе создай 3 дочерних элемента: -->
 
         <!-- a) Заголовок первого уровня со своим ФИО -->
-        <h1>Колесникова Анастасия Сергеевна</h1>
+        <h1 data-cy="hw2-main-title">Колесникова Анастасия Сергеевна</h1>
         <!-- b) Несколько строк о себе: где учишься или работаешь, хобби, увлечения. Используй тег для абзаца. Длина строки должна быть больше 50-ти симвов (пробелы и др знаки припинания тоже считаются символом) -->
-        <p>Люблю HTML, CSS и все что связано с frontend-разработкой, но в IT-INCUBATORE пока еще не работаю.</p>
+        <p data-cy="hw2-text">Люблю HTML, CSS и все что связано с frontend-разработкой, но в IT-INCUBATORE пока еще не работаю.</p>
         <!-- c) Фото (или любую картинку из интернета). Не забудь добавить описание на случай, если изображение не загрузится -->
-        <img src="https://sun9-79.userapi.com/impg/srMOXipg73OZLkBKXR9iS0X3ealCa8zcvDG8mw/YhWsJ3uEcmM.jpg?size=537x240&quality=96&sign=f9354275588dde3c9bb6d2e4425682be&type=share" alt="Frontend Developer">
+        <img data-cy="hw2-main-image" src="https://sun9-79.userapi.com/impg/srMOXipg73OZLkBKXR9iS0X3ealCa8zcvDG8mw/YhWsJ3uEcmM.jpg?size=537x240&quality=96&sign=f9354275588dde3c9bb6d2e4425682be&type=share" alt="Frontend Developer">
     </section>
 
-    <section class="hw1-section-about-pre" data-cy="hw1-section-about-pre">
+    <section data-cy="hw2-section-about-pre">
         <!-- 2) В этом разделе создай выпадающий список с разными городами (не меньше 3-х). Свой город сделай вторым в этом списке. С помощью специального атрибута, сделай так, чтобы твой город всегда был выбранным по умолчанию  -->
-        <select name="Город">
+        <select data-cy="hw2-select-pre" name="Город">
             <option value="Москва">Москва</option>
             <option value="Казань" selected>Казань</option>
             <option value="Санкт-Петербург">Санкт-Петербург</option>
@@ -40,9 +40,9 @@
             <!-- 3) В этом разделе создай 2 дочерних элемента: -->
 
             <!-- a) Заголовок 2-го уровня (любимые книги/фильмы/блюда/страны... и т.п.) -->
-            <h2>Любимые блюда</h2>
+            <h2 data-cy="hw2-section-title-pre">Любимые блюда</h2>
             <!-- b) Маркированный список. В списке должно быть не менее 3-х элементов -->
-            <ul>
+            <ul data-cy="hw2-skills-list-pre">
                 <li>Хачапури</li>
                 <li>Хинкали</li>
                 <li>Долма</li>
@@ -51,23 +51,23 @@
         <div data-cy="hw1-ordered-list-box-pre">
             <!-- 3) В этом разделе создай 2 дочерних элемента: -->
             <!-- a) Заголовок 2-го уровня с другим названием (любимые книги/фильмы/блюда/страны... и т.п.) -->
-            <h2>Любимые фильмы</h2>
+            <h2 data-cy="hw2-section-title-pre">Любимые фильмы</h2>
             <!-- b) Нумерованный (упорядоченный) список. В списке должно быть не менее 3-х элементов -->
-            <ol>
+            <ol data-cy="hw2-books-list-pre">
                 <li>1+1</li>
                 <li>Невероятный мир глазами Энцо</li>
                 <li>Достучаться до небес</li>
             </ol>
         </div>
         <div data-cy="hw1-skills-box-pre">
-            <h2>Мои скиллы</h2>
+            <h2 data-cy="hw2-section-title-pre">Мои скиллы</h2>
             <!-- 4) Здесь создай несколько чекбоксов с подписью (не меньше 3-х). 
                 - В подписи укажи названия любых тем по верстке (все, что знаешь или слышал). 
                 - Каждый чекбокс должен быть связан со своей подписью. Для этого чекбокс должен находиться в элементе для подписи
                 - Отметь "галочкой" (с помощью специального атрибута) темы, которые ты уже знаешь. -->
-                <label for="HTML">
-                    <input type="checkbox" name="HTML" checked>
-                    HTML
+                <label data-cy="hw2-label-pre" for="HTML5">
+                    <input type="checkbox" name="HTML5" checked>
+                    HTML5
                 </label>
                 <label for="CSS">
                     <input type="checkbox" name="CSS" checked>
@@ -83,12 +83,12 @@
                 </label>
         </div>
         <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
-        <input type="text" placeholder="Новый скилл">
+        <input data-cy="hw2-text-field-pre" type="text" placeholder="Новый скилл">
         <!-- 6) Создай здесь кнопку “Добавить” -->
-        <button>Добавить</button>
+        <button data-cy="hw2-btn-pre">Добавить</button>
         <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
-        <hr>     
-        <table data-cy="hw-about-table-pre">
+        <hr data-cy="hw2-line-pre">     
+        <table data-cy="hw2-about-table-pre">
             <!-- 8) В таблице сделай 5 строк и 3 столбца. 
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
                         - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает

@@ -13,32 +13,32 @@ header {
     background: #2965f1;
     padding: 23px 0;
 }
-span {
+[data-cy="hw2-header-span"] {
     font-weight: 700;
     font-size: 20px;
     color: #fff;
 }
-.hw1-section-main-pre {
+[data-cy="hw1-section-main-pre"] {
     background: #fafaff;
     padding: 60px 0;
     min-height: 100vh;
 }
-.hw1-section-main-pre h1 {
+[data-cy="hw2-main-title"] {
     font-weight: 700;
     font-size: 48px;
     margin-bottom: 20px;
 }
-.hw1-section-main-pre p {
+[data-cy="hw2-text"] {
     font-size: 18px;
 }
-.hw1-section-main-pre img {
+img[data-cy="hw2-main-image"] {
     max-width: 715px;
 }
-.hw1-section-about-pre {
+[data-cy="hw2-section-about-pre"] {
     fill: #fff;
     padding: 100px 0 60px;
 }
-.hw1-section-about-pre select {
+[data-cy="hw2-select-pre"] {
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
     width: 150px;
@@ -48,28 +48,30 @@ span {
     appearance: none;
     background: url(assest/image/ep_arrow-down.svg) no-repeat top 50% right 10px;
 }
-.hw1-section-about-pre h2 {
+[data-cy="hw2-section-title-pre"] {
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 25px;
 }
-.hw1-section-about-pre ul {
+[data-cy="hw2-skills-list-pre"] {
     list-style-image: url(assest/image/Vector.svg);
     padding-left: 20px;
 }
-.hw1-section-about-pre ol {
+[data-cy="hw2-books-list-pre"] {
     padding-left: 20px;
 }
-input[type="text"] {
+[data-cy="hw2-label-pre"] {
+    font-weight: 400;
+    font-size: 16px;
+}
+[data-cy="hw2-text-field-pre"] {
     width: 330px;
     height: 36px;
     color: rgba(48, 48, 48, 0.2);
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
-    width: 330px;
-    height: 36px;
 }
-button {
+[data-cy="hw2-btn-pre"] {
     border-radius: 5px;
     width: 125px;
     height: 36px;
@@ -79,16 +81,16 @@ button {
     color: #fff;
     border: none;
 }
-hr {
+[data-cy="hw2-line-pre"] {
     border: 1px solid rgba(48, 48, 48, 0.3);
     width: 1440px;
     height: 0px;
     margin: 60px 0;
 }
-table, td, th {
+table, th, td, tr [data-cy="hw2-about-table-pre"] {
     border: 1px solid #95a1bb;
     border-collapse: collapse;
-    padding: 10px 15px 12px;
+    padding: 12px 15px;
 }
 th {
     font-weight: 700;
