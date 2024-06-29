@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #303030;
+    font-size: 16px;
+}
+header {
+    background: #2965f1;
+    padding: 23px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+.hw1-section-main-pre {
+    background: #fafaff;
+    padding: 60px 0;
+    min-height: 100vh;
+}
+.hw1-section-main-pre h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hw1-section-main-pre p {
+    font-size: 18px;
+}
+.hw1-section-main-pre img {
+    max-width: 715px;
+}
+.hw1-section-about-pre {
+    fill: #fff;
+    padding: 100px 0 60px;
+}
+.hw1-section-about-pre select {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0);
+    padding: 8px 15px 9px;
+    appearance: none;
+    background: url(assest/image/ep_arrow-down.svg) no-repeat top 50% right 10px;
+}
+.hw1-section-about-pre h2 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.hw1-section-about-pre ul {
+    list-style-image: url(assest/image/Vector.svg);
+    padding-left: 20px;
+}
+.hw1-section-about-pre ol {
+    padding-left: 20px;
+}
+input[type="text"] {
+    width: 330px;
+    height: 36px;
+    color: rgba(48, 48, 48, 0.2);
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+}
+button {
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+}
+hr {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0px;
+    margin: 60px 0;
+}
+table, td, th {
+    border: 1px solid #95a1bb;
+    border-collapse: collapse;
+    padding: 10px 15px 12px;
+}
+th {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+}
+td {
+    font-size: 14px;
+}
+footer {
+    background: rgba(163, 167, 255, 0.3);
+    padding: 26px 0 27px;
+}
+a {
+    text-decoration:none;
+    font-size: 14px;
+    color: #2965f1;
+}
