@@ -18,7 +18,7 @@ header {
     font-size: 20px;
     color: #fff;
 }
-[data-cy="hw1-section-main-pre"] {
+[data-cy="hw2-section-main-pre"] {
     background: #fafaff;
     padding: 60px 0;
     min-height: 100vh;
@@ -36,7 +36,7 @@ img[data-cy="hw2-main-image"] {
 }
 [data-cy="hw2-section-about-pre"] {
     fill: #fff;
-    padding: 100px 0 60px;
+    padding: 100px 0;
 }
 [data-cy="hw2-select-pre"] {
     border: 1px solid rgba(48, 48, 48, 0.3);
@@ -55,10 +55,10 @@ img[data-cy="hw2-main-image"] {
 }
 [data-cy="hw2-skills-list-pre"] {
     list-style-image: url(assest/image/Vector.svg);
-    padding-left: 20px;
+    padding: 0 20px;
 }
 [data-cy="hw2-books-list-pre"] {
-    padding-left: 20px;
+    padding: 0 20px;
 }
 [data-cy="hw2-label-pre"] {
     font-weight: 400;
@@ -70,6 +70,7 @@ img[data-cy="hw2-main-image"] {
     color: rgba(48, 48, 48, 0.2);
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
+    font-size: 16px;
 }
 [data-cy="hw2-btn-pre"] {
     border-radius: 5px;
@@ -94,11 +95,11 @@ table, th, td, tr [data-cy="hw2-about-table-pre"] {
 }
 th {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
 td {
-    font-size: 14px;
+    font-size: 16px;
 }
 footer {
     background: rgba(163, 167, 255, 0.3);
