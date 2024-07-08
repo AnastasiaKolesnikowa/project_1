@@ -20,13 +20,15 @@
     </header>
     <section data-cy="hw2-section-main-pre">
         <div class="container">
-            <div class="main-section-wrapper">
-                <div class="text-wrapper">
+            <div data-cy="hw3-section-main-pre">
+                <div class="wrapper">
                 <!-- 1) В этом разделе создай 3 дочерних элемента: -->
         <!-- a) Заголовок первого уровня со своим ФИО -->
         <h1 data-cy="hw2-main-title">Колесникова Анастасия Сергеевна</h1>
         <!-- b) Несколько строк о себе: где учишься или работаешь, хобби, увлечения. Используй тег для абзаца. Длина строки должна быть больше 50-ти симвов (пробелы и др знаки припинания тоже считаются символом) -->
-        <p data-cy="hw2-text">Люблю HTML, CSS и все что связано с frontend-разработкой, но в IT-INCUBATORE пока еще не работаю.</p>
+        <div data-cy="hw3-text-wrapper">
+            <p data-cy="hw2-text">Люблю HTML, CSS и все что связано с frontend-разработкой, но в IT-INCUBATORE пока еще не работаю.</p>
+        </div>
             </div>
         <!-- c) Фото (или любую картинку из интернета). Не забудь добавить описание на случай, если изображение не загрузится -->
         <img data-cy="hw2-main-image" src="/assest/image/Group.svg" alt="Frontend Developer">
@@ -35,19 +37,18 @@
     </section>
     <section data-cy="hw2-section-about-pre">
         <div class="container">
-            <!-- 2) В этом разделе создай выпадающий список с разными городами (не меньше 3-х). Свой город сделай вторым в этом списке. С помощью специального атрибута, сделай так, чтобы твой город всегда был выбранным по умолчанию  -->
-        <select data-cy="hw2-select-pre" name="Город">
+            <div data-cy="hw3-section-about-pre">
+    <select data-cy="hw2-select-pre" name="Город">
             <option value="Москва">Москва</option>
             <option value="Казань" selected>Казань</option>
             <option value="Санкт-Петербург">Санкт-Петербург</option>
         </select>
-        <div class="info-wrapper">
+        <div data-cy="hw3-info-wrapper-pre">
             <div data-cy="hw1-unordered-list-box-pre">
             <!-- 3) В этом разделе создай 2 дочерних элемента: -->
             <!-- a) Заголовок 2-го уровня (любимые книги/фильмы/блюда/страны... и т.п.) -->
-            <div class="title-pre-wrapper">
+            <div data-cy="hw3-frameworks-list-pre">
                 <h2 data-cy="hw2-section-title-pre">Любимые блюда</h2>
-            <!-- b) Маркированный список. В списке должно быть не менее 3-х элементов -->
             <ul data-cy="hw2-skills-list-pre">
                 <li>Хачапури</li>
                 <li>Хинкали</li>
@@ -77,7 +78,7 @@
         <!-- 6) Создай здесь кнопку “Добавить” -->
         <button data-cy="hw2-btn-pre">Добавить</button>
     </div>
-            <div class="skills">
+            <div data-cy="hw3-skills-pre">
                 
             <!-- 4) Здесь создай несколько чекбоксов с подписью (не меньше 3-х). 
                 - В подписи укажи названия любых тем по верстке (все, что знаешь или слышал). 
@@ -102,13 +103,7 @@
                 <hr data-cy="hw2-line-pre">  
             </div>
         </div>
-        <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
-        
         <table data-cy="hw2-about-table-pre">
-            <!-- 8) В таблице сделай 5 строк и 3 столбца. 
-                        - В первой строке ячейки заголовков, в остальных обычные ячейки
-                        - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
-                        - В последнем ряду первая ячейка должна занимать все свободное место по горизонтали (ширине). Таблицу можно заполнять любыми данными -->
                                 <tr>
                                     <th>Имя</th>
                                     <th>Увлечения</th>
@@ -133,13 +128,18 @@
                                     <td colspan="2">В опросе приняли участие:</td>
                                     <td>3 человека</td>
                                 </tr>
-                            </table>
+        </table>
+            </div>
+       
         </div>
     </section>
     <footer data-cy="hw-footer-pre">
         <div class="container">
+            <div data-cy="hw3-footer-pre">
+                <a data-cy="hw-footer-link-pre" href="https://it-incubator.io/">it-incubator</a>
+            </div>
             <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
-        <a data-cy="hw-footer-link-pre" href="https://it-incubator.io/">it-incubator</a>
+        
         </div>
     </footer>
 </body>
