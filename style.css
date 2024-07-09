@@ -46,7 +46,7 @@ header {
     padding-top: 422px;
 }
 [data-cy="hw3-text-wrapper-pre"] {
-    max-width: 420px;
+    max-width: 425px;
 }
 img[data-cy="hw2-main-image"] {
     max-width: 715px;
@@ -65,7 +65,7 @@ li {
 }
 [data-cy="hw3-skills-block-pre"] {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     max-width: 475px;
     gap: 20px;
 
@@ -113,6 +113,11 @@ label {
 [data-cy="hw2-books-list-pre"] {
     padding: 0 20px;
 }
+[data-cy="hw3-skills-pre"] {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 [data-cy="hw2-label-pre"] {
     font-weight: 400;
     font-size: 16px;
@@ -124,6 +129,7 @@ label {
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
     font-size: 16px;
+    margin-bottom: 40px;
 }
 [data-cy="hw2-text-field-pre"]:hover {
     border: 1px solid #2965f1;

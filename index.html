@@ -10,9 +10,6 @@
     <title>It-incubator precourse</title>
 </head>
 <body>
-    <!-- ЗАДАНИЕ -->
-    <!-- Необходимо создать html-элементы там, где это нужно, в соответствии с правилами семантической разметки -->
-    <!-- ⚠️ Атрибут data-cy удалять нельзя! Он учавствует в проверке. Если его удалить, тесты не пройдут. -->
     <header>
         <div class="container">
             <span data-cy="hw2-header-span">IT-INCUBATOR</span>
@@ -22,15 +19,11 @@
         <div class="container">
             <div data-cy="hw3-section-main-pre">
                 <div class="wrapper">
-                <!-- 1) В этом разделе создай 3 дочерних элемента: -->
-        <!-- a) Заголовок первого уровня со своим ФИО -->
         <h1 data-cy="hw2-main-title">Колесникова Анастасия Сергеевна</h1>
-        <!-- b) Несколько строк о себе: где учишься или работаешь, хобби, увлечения. Используй тег для абзаца. Длина строки должна быть больше 50-ти симвов (пробелы и др знаки припинания тоже считаются символом) -->
         <div data-cy="hw3-text-wrapper-pre">
             <p data-cy="hw2-text">Люблю HTML, CSS и все что связано с frontend-разработкой, но в IT-INCUBATORE пока еще не работаю.</p>
         </div>
             </div>
-        <!-- c) Фото (или любую картинку из интернета). Не забудь добавить описание на случай, если изображение не загрузится -->
         <img data-cy="hw2-main-image" src="/assest/image/Group.svg" alt="Frontend Developer">
             </div>
         </div>
@@ -45,8 +38,6 @@
         </select>
         <div data-cy="hw3-info-wrapper-pre">
             <div data-cy="hw1-unordered-list-box-pre">
-            <!-- 3) В этом разделе создай 2 дочерних элемента: -->
-            <!-- a) Заголовок 2-го уровня (любимые книги/фильмы/блюда/страны... и т.п.) -->
             <div data-cy="hw3-frameworks-list-pre">
                 <h2 data-cy="hw2-section-title-pre">Любимые блюда</h2>
             <ul data-cy="hw2-skills-list-pre">
@@ -58,10 +49,7 @@
         </div>
         <div data-cy="hw1-ordered-list-box-pre">
             <div class="list-box-pre-wrapper">
-                <!-- 3) В этом разделе создай 2 дочерних элемента: -->
-            <!-- a) Заголовок 2-го уровня с другим названием (любимые книги/фильмы/блюда/страны... и т.п.) -->
             <h2 data-cy="hw2-section-title-pre">Любимые фильмы</h2>
-            <!-- b) Нумерованный (упорядоченный) список. В списке должно быть не менее 3-х элементов -->
             <ol data-cy="hw2-books-list-pre">
                 <li>1+1</li>
                 <li>Невероятный мир глазами Энцо</li>
@@ -72,18 +60,10 @@
         </div>
         <div data-cy="hw1-skills-box-pre">
             <h2 class="" data-cy="hw2-section-title-pre">Мои скиллы</h2>
-                <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
-    <div class="btn-pre-wrapper">
-        <input data-cy="hw2-text-field-pre" type="text" placeholder="Новый скилл">
-        <!-- 6) Создай здесь кнопку “Добавить” -->
-        <button data-cy="hw2-btn-pre">Добавить</button>
-    </div>
-            <div data-cy="hw3-skills-block-pre">
-                
-            <!-- 4) Здесь создай несколько чекбоксов с подписью (не меньше 3-х). 
-                - В подписи укажи названия любых тем по верстке (все, что знаешь или слышал). 
-                - Каждый чекбокс должен быть связан со своей подписью. Для этого чекбокс должен находиться в элементе для подписи
-                - Отметь "галочкой" (с помощью специального атрибута) темы, которые ты уже знаешь. -->
+            <div class="btn-pre-wrapper">
+                <input data-cy="hw2-text-field-pre" type="text" placeholder="Новый скилл">
+                <button data-cy="hw2-btn-pre">Добавить</button>
+            <div data-cy="hw3-skills-pre" data-cy="hw3-skills-block-pre">
                 <label data-cy="hw2-label-pre" for="HTML5">
                     <input type="checkbox" name="HTML5" checked>
                     HTML5
@@ -100,9 +80,11 @@
                     <input type="checkbox" name="React">
                     React
                 </label>
-                <hr data-cy="hw2-line-pre">  
+
+    </div>
             </div>
         </div>
+        <hr data-cy="hw2-line-pre"> 
         <table data-cy="hw2-about-table-pre">
                                 <tr>
                                     <th>Имя</th>
@@ -130,7 +112,6 @@
                                 </tr>
         </table>
             </div>
-       
         </div>
     </section>
     <footer data-cy="hw2-footer-pre">
@@ -138,8 +119,6 @@
             <div data-cy="hw-footer-pre">
                 <a data-cy="hw-footer-link-pre" href="https://it-incubator.io/">it-incubator</a>
             </div>
-            <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
-        
         </div>
     </footer>
 </body>
