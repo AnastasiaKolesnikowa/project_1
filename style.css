@@ -41,9 +41,12 @@ header {
 [data-cy="hw2-text"] {
     font-size: 18px;
 }
+.wrapper-main {
+    padding-top: 420px;
+}
 .wrapper {
     align-items: center;
-    padding-top: 422px;
+    gap: 60px;
 }
 [data-cy="hw3-text-wrapper-pre"] {
     max-width: 425px;
@@ -64,7 +67,6 @@ li {
     padding: 16px 0;
 }
 [data-cy="hw3-skills-block-pre"] {
-    display: flex;
     flex-direction: column-reverse;
     max-width: 475px;
     gap: 20px;
@@ -110,7 +112,7 @@ label {
     list-style-image: url(assest/image/Vector.svg);
     padding: 0 20px;
 }
-[data-cy="hw2-books-list-pre"] {
+[data-cy="hw3-books-list-pre"] {
     padding: 0 20px;
 }
 [data-cy="hw3-skills-pre"] {
@@ -169,21 +171,19 @@ th {
 td {
     font-size: 14px;
 }
-[data-cy="hw2-footer-pre"] {
+[data-cy="hw-footer-pre"] {
     background: rgba(163, 167, 255, 0.3);
-    padding: 26px 0;
-    
+    padding: 26px 0;   
 }
-[data-cy="hw-footer-link-pre"] {
+[data-cy="hw3-footer-pre"] {
     text-decoration:none;
     font-size: 14px;
     color: #2965f1;
-}
-[data-cy="hw-footer-pre"] {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-[data-cy="hw-footer-link-pre"]:hover {
+[data-cy="hw3-footer-pre"]:hover {
     text-decoration: underline;
 }
