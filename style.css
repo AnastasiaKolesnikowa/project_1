@@ -45,7 +45,7 @@ header {
     align-items: center;
     padding-top: 422px;
 }
-[data-cy="hw3-text-wrapper"] {
+[data-cy="hw3-text-wrapper-pre"] {
     max-width: 420px;
 }
 img[data-cy="hw2-main-image"] {
@@ -63,7 +63,7 @@ img[data-cy="hw2-main-image"] {
 li {
     padding: 16px 0;
 }
-[data-cy="hw3-skills-pre"] {
+[data-cy="hw3-skills-block-pre"] {
     display: flex;
     flex-direction: column;
     max-width: 475px;
@@ -96,6 +96,8 @@ select:hover {
     margin-bottom: 25px;
 }
 [data-cy="hw3-section-about-pre"] {
+    display: flex;
+    flex-direction: column;
     gap: 60px;
 }
 label {
@@ -161,16 +163,17 @@ th {
 td {
     font-size: 14px;
 }
-[data-cy="hw-footer-pre"] {
+[data-cy="hw2-footer-pre"] {
     background: rgba(163, 167, 255, 0.3);
     padding: 26px 0;
+    
 }
 [data-cy="hw-footer-link-pre"] {
     text-decoration:none;
     font-size: 14px;
     color: #2965f1;
 }
-[data-cy="hw3-footer-pre"] {
+[data-cy="hw-footer-pre"] {
     display: flex;
     justify-content: center;
     align-items: center;
