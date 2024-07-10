@@ -37,6 +37,7 @@ header {
     font-weight: 700;
     font-size: 48px;
     margin-top: 300px;
+    margin-bottom: 20px;
 }
 [data-cy="hw2-text"] {
     font-size: 18px;
@@ -111,6 +112,7 @@ label {
 }
 [data-cy="hw3-books-list-pre"] {
     padding: 0 20px;
+    gap: 16px;
 }
 [data-cy="hw3-skills-pre"] {
     display: flex;
