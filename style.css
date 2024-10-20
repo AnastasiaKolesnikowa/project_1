@@ -136,14 +136,15 @@ form {
     display: flex;
     gap: 10px;
 }
+
 [data-cy="hw2-text-field-pre"] {
     width: 330px;
     height: 36px;
-    color: rgba(48, 48, 48, 0.2);
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
     font-size: 16px;
     margin-bottom: 40px;
+    padding-left: 10px;
 }
 [data-cy="hw2-text-field-pre"]:hover {
     border: 1px solid #2965f1;
